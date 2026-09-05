@@ -1,14 +1,15 @@
 package io.github.pgatzka.helios;
 
-/**
- * Placeholder entry point that proves the build compiles for Java 25.
- */
-public final class Helios {
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-    private Helios() {
-    }
+/**
+ * Entry point of the helios Spring Boot application.
+ */
+@SpringBootApplication
+public class Helios {
 
     public static void main(String[] args) {
-        System.out.println("helios");
+        SpringApplication.run(Helios.class, args);
     }
 }
