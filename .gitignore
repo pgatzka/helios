@@ -1,4 +1,2 @@
-/.gradle/
 /.idea/
-/application/build/
-/build/
+/application/target/
